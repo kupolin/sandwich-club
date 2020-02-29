@@ -5,10 +5,15 @@ import java.util.List;
 public class Sandwich {
 
     private String mainName;
+
     private List<String> alsoKnownAs = null;
+
     private String placeOfOrigin;
+
     private String description;
+
     private String image;
+
     private List<String> ingredients = null;
 
     /**
@@ -17,7 +22,8 @@ public class Sandwich {
     public Sandwich() {
     }
 
-    public Sandwich(String mainName, List<String> alsoKnownAs, String placeOfOrigin, String description, String image, List<String> ingredients) {
+    public Sandwich(String mainName, List<String> alsoKnownAs, String placeOfOrigin, String description, String image,
+        List<String> ingredients) {
         this.mainName = mainName;
         this.alsoKnownAs = alsoKnownAs;
         this.placeOfOrigin = placeOfOrigin;
